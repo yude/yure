@@ -22,9 +22,6 @@ const ws = new WebSocket('./');
 /** 全ゆれ記憶バッファ */
 const yures = {};
 
-/** 強制更新タイマバッファ */
-const timers = {};
-
 /** 表示を更新する */
 async function
 update(yureId)
